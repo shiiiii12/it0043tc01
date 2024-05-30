@@ -42,8 +42,26 @@ img {
     display: none;
 }
 
-.type {
+.type1 {
     display: none;
+}
+.type2 {
+    display: none;
+}
+.type1
+    .type2,
+    .type3,
+    .type4,
+    .type5,
+    .type6,
+    .type7,
+    .type8,
+    .type9,
+    .type10,
+    .type11,
+    .type12,
+    .type13 {
+        display: none;
 }
 
 #p {
