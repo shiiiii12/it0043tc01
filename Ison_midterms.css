@@ -177,80 +177,93 @@ img {
         justify-content: center;
     }
 
-    .type1{
-        display: inline-block;
+.type1{
+        display: flex;
+        justify-content: center;
         background-color: #fffeb9;
         border-radius: 5%;
         text-align: center;
     }
     .type2{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: rgb(255, 167, 129);
         border-radius: 5%;
         text-align: center;
     }
     .type3{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #fff16f;
         border-radius: 5%;
         text-align: center;
     }
     .type4{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #7949ff;
         border-radius: 5%;
         text-align: center;
     }
     .type5{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #fe60fc;
         border-radius: 5%;
         text-align: center;
     }
     .type6{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #8baffb;
         border-radius: 5%;
         text-align: center;
     }
     .type7{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #e7e5a5;
         border-radius: 5%;
         text-align: center;
     }
     .type8{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #ff87ab;
         border-radius: 5%;
         text-align: center;
     }
     .type9{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #41a33e;
         border-radius: 5%;
         text-align: center;
     }
     .type10{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #ecff60;
         border-radius: 5%;
         text-align: center;
     }
     .type11{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #9abaff;
         border-radius: 5%;
         text-align: center;
     }
     .type12{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #41a33e;
         border-radius: 5%;
         text-align: center;
     }
     .type13{
-        display: inline-block;
+        display: flex;
+        justify-content: center;
         background-color: #fe60fc;
         border-radius: 5%;
         text-align: center;
