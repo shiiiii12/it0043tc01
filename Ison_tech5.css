@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dbz-container{
+    width: 85vw;
+    border: 5px black;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.item{
+    border: 5px solid darkslategray;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#beerus .details,
+#buu .details {
+    flex-direction: row;
+}
+
+ img {
+    width: 128px;
+ }
+
+ .name{
+    font-size: 2.5rem;
+ }
+
+ .race{
+    font-size: 2.5rem;
+ }
+
+ #Beerus{
+    background-color: #222A35;
+ }
+ #Frieza{
+    background-color: #3C2960;
+ }
+ #Ace{
+    background-color: #64BCF7;
+ }
+ #Buu{
+    background-color: #6E4982;
+ }
+ #Luffy{
+    background-color: #FF1866;
+ }
+ #DoFlamingo{
+    background-color: #AF5992;
+ }
+
+ @media (max-width:1000px){
+    .dbz-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #beerus{
+        grid-column: 1/2;
+        grid-row: 1/2;
+     }
+     #Frieza{
+        grid-column: 2/3;
+        grid-row: 1/2;
+     }
+     #Ace{
+        grid-column: 1/2;
+        grid-row: 2/3;
+     }
+     #Buu{
+        grid-column: 2/3;
+        grid-row: 2/3;
+     }
+     #Luffy{
+        grid-column: 1/3;
+        grid-row: 3/4;
+     }
+     #DoFlamingo{
+        grid-column: 1/2;
+        grid-row: 1/2;
+     }
+ }
