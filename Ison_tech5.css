@@ -27,7 +27,7 @@
     gap: 15px;
 }
 
-.details {
+.details{
     display: flex;
     flex-direction: column;
     text-align: center;
