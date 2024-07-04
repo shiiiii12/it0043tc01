@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+label {
+    color: white;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    background-color: #343a40;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
+}
+
+.controls p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: white;
+}
+
+.controls button, .controls input {
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.controls button {
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controls input {
+    width: 50px;
+}
+
+.flex-container {
+    background-image:url(bckgrnd1.jpg);
+    background-size:cover;
+    display: flex;
+    width: 3500px;
+    height: 661px;;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: #6200ea;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+#box1 {
+    background-image: url('luffy1.jfif'); 
+    background-size: cover;
+    
+}
+
+#box2 {
+    background-image: url('luffy1.jfif'); 
+    background-size: cover;
+}
+
+#box3 {
+    background-image: url('luffy1.jfif'); 
+    background-size: cover;
+}

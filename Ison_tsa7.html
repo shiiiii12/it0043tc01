@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Simulator</title>
+    <link rel="stylesheet" href="praccs.css">
+</head>
+<body>
+    <div class="controls">
+        <button id="reset-flexbox">Reset Flexbox</button>
+        <label>
+            Gap:
+            <input type="number" id="gap" value="0" min="0">
+        </label>
+
+        <div>
+            <p>Flex Direction</p>
+            <button data-flex-direction="row">Row</button>
+            <button data-flex-direction="column">Column</button>
+        </div>
+
+        <div>
+            <p>Justify Content</p>
+            <button data-justify-content="flex-start">Start</button>
+            <button data-justify-content="center">Center</button>
+            <button data-justify-content="flex-end">End</button>
+            <button data-justify-content="space-between">Space Between</button>
+            <button data-justify-content="space-around">Space Around</button>
+            <button data-justify-content="space-evenly">Space Evenly</button>
+        </div>
+
+        <div>
+            <p>Align Items</p>
+            <button data-align-items="flex-start">Start</button>
+            <button data-align-items="center">Center</button>
+            <button data-align-items="flex-end">End</button>
+        </div>
+
+        <div>
+            <p>Flex Grow</p>
+            <button id="reset-grow">Reset</button>
+            <button id="grow-all">Grow All</button>
+            <label>
+                Box 1:
+                <input type="number" data-box="1" class="grow-input" value="0" min="0">
+            </label>
+            <label>
+                Box 2:
+                <input type="number" data-box="2" class="grow-input" value="0" min="0">
+            </label>
+            <label>
+                Box 3:
+                <input type="number" data-box="3" class="grow-input" value="0" min="0">
+            </label>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item" id="box1">1</div>
+        <div class="flex-item" id="box2">2</div>
+        <div class="flex-item" id="box3">3</div>
+    </div>
+
+    <script src="practice.js"></script>
+</body>
+</html>
